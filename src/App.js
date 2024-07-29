@@ -13,7 +13,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 const App = () => {
   // lecture number 37 
   // below one is the calling of (.env.local) so that no one else can see my api id 
-  const apikey = process.env.REACT_APP_NEWS_API
+  const apikey = import.meta.env.REACT_APP_NEWS_API
 
   const [progress, setprogress] = useState(0);
   return (
