@@ -6,6 +6,11 @@
   height: 40vmin;
   pointer-events: none;
 }
+.abcd{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
